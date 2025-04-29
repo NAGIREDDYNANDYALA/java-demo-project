@@ -2,10 +2,6 @@ package com.example.app;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello, Java World!");
-    }
-
-    public String greet() {
-        return "Hello from App!";
+        System.out.println("Hello, World!");
     }
 }
