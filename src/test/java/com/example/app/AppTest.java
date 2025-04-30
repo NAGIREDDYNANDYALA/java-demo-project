@@ -1,12 +1,12 @@
 package com.example.app;
 
-import static org.junit.Assert.assertTrue;
 import org.junit.Test;
+import static org.junit.Assert.*;
 
 public class AppTest {
     @Test
-    public void testApp() {
+    public void testGreet() {
         App app = new App();
-        assertTrue("App is running", app != null);
+        assertEquals("Hello, world!", app.greet());
     }
 }
