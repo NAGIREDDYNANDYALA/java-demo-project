@@ -1,11 +1,11 @@
 package com.example.app;
 
 public class App {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
+    public String greet() {
+        return "Hello, world!";
     }
 
-    public String getMessage() {
-        return "Hello from App class!";
+    public static void main(String[] args) {
+        System.out.println(new App().greet());
     }
 }
